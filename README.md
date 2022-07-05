@@ -28,7 +28,7 @@
 ```
 ./wireGuardClient.sh up <INTERNAL_VPN_CLIENT_IP/subnet> <SERVER_PUBKEY> <SERVER_HOSTNAME> <SERVER_PORT> <IP_RANGE_TO_ROUTE_THROUGH_VPN>
 ```
-* Example: ```./wireGuardClient.sh up <10.0.0.2/8> <93ne1D8MAmDiGkKoGYBoc/Nu1p/Se1QywVkymQNMq2U=> <142.251.132.46> <51820> <0.0.0.0/0>```
+* Example: ```./wireGuardClient.sh up 10.0.0.2/8 93ne1D8MAmDiGkKoGYBoc/Nu1p/Se1QywVkymQNMq2U= 142.251.132.46 51820 0.0.0.0/0```
 
 #### Stop the VPN client
 ```
