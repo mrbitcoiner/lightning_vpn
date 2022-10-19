@@ -15,7 +15,7 @@
 ```
 * Recommended to use 10.0.0.x/8 as the client ip range
 * Following the recommendation above, <client_internal_ip/subnet> will be <10.0.0.x/32>
-* The default server internal ip will be <10.0.0.1/8>
+* The default server internal ip will be <10.0.0.1/24>
 
 #### Stop the VPN server:
 ```
